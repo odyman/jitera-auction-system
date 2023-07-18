@@ -1,0 +1,75 @@
+.input-group {
+  @apply flex items-center;
+
+  .input {
+    @apply z-10;
+  }
+
+  .input {
+    &:focus,
+    &:focus-within {
+      @apply z-20;
+    }
+  }
+
+  .date-picker {
+    z-index: 11;
+  }
+
+  .select__control--is-focused,
+  .date-picker.picker-expanded,
+  .input-suffix-end,
+  .input-suffix-start {
+    @apply z-20;
+  }
+
+  > .input,
+  > .input-addon,
+  > .button {
+    &:first-child {
+      @apply rounded-r-none;
+    }
+
+    &:last-child:not(.picker) {
+      @apply rounded-l-none;
+    }
+
+    &:not(:first-child) {
+      @apply rounded-l-none -ml-px;
+    }
+
+    &:not(:last-child) {
+      @apply rounded-r-none;
+    }
+  }
+
+  > * {
+    &:first-child {
+      .input,
+      .select__control {
+        @apply rounded-r-none;
+      }
+    }
+
+    &:last-child {
+      .input,
+      .select__control {
+        @apply rounded-l-none;
+      }
+    }
+
+    &:not(:first-child) {
+      .input,
+      .select__control {
+        @apply rounded-l-none -ml-px;
+      }
+    }
+
+    &:not(:last-child) {
+      .input,
+      .select__control {
+        @apply rounded-r-none;
+      }
+    }
+  }
+}
