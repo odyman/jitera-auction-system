@@ -1,0 +1,38 @@
+{
+  "name": "auction-api",
+  "version": "1.0.0",
+  "description": "API Auction System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/odyman/jitera-auction-system#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "bookshelf": "^1.2.0",
+    "bookshelf-simplepaginate": "0.0.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.21",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "5.0.1",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

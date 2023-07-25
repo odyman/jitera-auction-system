@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "auction_sys",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "auction_sys",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "nqelosevzvnrma",
+    "password": "72ca814046fbeb595be26a5b246c5c28a18a2a49464c89fdbec052a81cc52821",
+    "database": "d4d35af4hab9k2",
+    "host": "ec2-54-221-220-59.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
