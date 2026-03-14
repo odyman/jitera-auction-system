@@ -16,7 +16,7 @@
   "license": "MIT",
   "homepage": "https://github.com/odyman/jitera-auction-system#readme",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^6.0.0",
     "bluebird": "^3.7.2",
     "body-parser": "^1.20.0",
     "bookshelf": "^1.2.0",
